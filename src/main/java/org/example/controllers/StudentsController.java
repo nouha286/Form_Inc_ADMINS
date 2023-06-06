@@ -1,6 +1,6 @@
-package home.controllers;
+package org.example.controllers;
 
-import home.model.StudentsModel;
+import org.example.model.StudentsModel;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

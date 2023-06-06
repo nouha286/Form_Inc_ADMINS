@@ -1,6 +1,6 @@
-package home.controllers;
+package org.example.controllers;
 
-import home.model.StudentsModel;
+import org.example.model.StudentsModel;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -18,13 +18,13 @@ public class DashboardController implements Initializable {
     @FXML
     private TableView<StudentsModel> tbData;
     @FXML
-    public TableColumn<StudentsModel, Integer> studentId;
+    public TableColumn<Object, Object> studentId;
 
     @FXML
-    public TableColumn<StudentsModel, String> firstName;
+    public TableColumn<Object, Object> firstName;
 
     @FXML
-    public TableColumn<StudentsModel, String> lastName;
+    public TableColumn<Object, Object> lastName;
 
     @FXML
     private PieChart pieChart;

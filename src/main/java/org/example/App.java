@@ -1,4 +1,4 @@
-package home;
+package org.example;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,9 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import jfxtras.styles.jmetro8.JMetro;
 
-public class Main extends Application {
+public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
